@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Car from "./car";
 import Swipeable from "./swipeable";
 
@@ -10,12 +11,12 @@ const cars = [
   { name: "Aston Martin DB4 GT Zagato", filename: "Aston-Martin-DB4-GT-Zagato.jpg" }
 ];
 
-function CarList() {
+function CarList(props) {
   return (
     <ul className="carList">
       {cars.map(car => (
         <li key={car.name}>
-          <Swipeable>
+          <Swipeable id={car.name} accept={props.accept} reject={props.reject}>
             <Car carName={car.name} imgFilename={car.filename} />
           </Swipeable>
         </li>
@@ -24,4 +25,8 @@ function CarList() {
   );
 }
 
+CarList.propTypes = {
+  accept: PropTypes.func.isRequired,
+  reject: PropTypes.func.isRequired
+}
 export default CarList;
