@@ -1,0 +1,8 @@
+.carList {
+	list-style: none;
+	padding-left: 0;
+}
+
+.carList li {
+	margin: 1.5em 0;
+}

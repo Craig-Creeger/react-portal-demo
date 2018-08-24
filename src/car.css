@@ -1,0 +1,12 @@
+figure {
+	margin: 0;
+}
+
+figure img {
+	max-width: 13em;
+	/* max-height: 7em; */
+}
+
+figcaption {
+	display: block;
+}

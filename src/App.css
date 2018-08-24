@@ -1,0 +1,19 @@
+.App-logo {
+  height: 2em;
+  margin-right: 3em;
+  vertical-align: middle;
+}
+
+.App-header {
+  background-color: rgb(0,76,188);
+  padding: 20px 2em;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-contents {
+  padding: 1.5em;
+}

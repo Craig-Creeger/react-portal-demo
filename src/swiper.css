@@ -1,0 +1,33 @@
+.swiper {
+	position: relative;
+	display: inline-block;
+	opacity: 1;
+	transition: all linear 250ms;
+}
+.swiper.like {
+	opacity: 0;
+	transform: translateX(300px);
+}
+.swiper.dislike {
+	opacity: 0;
+	transform: translateX(-300px);
+}
+
+.swipeBtn {
+	position: absolute;
+	top: 0;
+	background: none;
+	background-color: transparent;
+	width: 50%;
+	height: 100%;
+	border: none;
+	outline: none;
+}
+
+.swipeLeft {
+	left: 0;
+}
+
+.swipeRight {
+	right: 0;
+}
