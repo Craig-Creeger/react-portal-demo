@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 function SortedCars(props) {
-  // This would have been better named as 'renderPortal'.
+  // This would have been better named as 'ReactDOM.renderPortal'.
   return ReactDOM.createPortal(
     <React.Fragment>
       <h2>

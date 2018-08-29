@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import CarList from "./car-list";
 import SortedCars from "./sorted-cars";
 
@@ -17,6 +16,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        {/* Because this page’s structure (index.html) controls the position of SortedCars,
+            the following component could really be placed anywhere within this Fragment. */}
         <SortedCars sweetRide={this.state.sweetRide} pileOfCrap={this.state.pileOfCrap} />
         <section>
           <p>Swipe until it hurts</p>
