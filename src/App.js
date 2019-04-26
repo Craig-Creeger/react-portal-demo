@@ -20,7 +20,7 @@ class App extends Component {
             the following component could really be placed anywhere within this Fragment. */}
         <SortedCars sweetRide={this.state.sweetRide} pileOfCrap={this.state.pileOfCrap} />
         <section>
-          <p>Swipe until it hurts</p>
+          <h3 style={{ textAlign: 'center' }}>Swipe until it hurts</h3>
           <CarList accept={this.addToSweetList} reject={this.addToCrapList} />
         </section>
       </React.Fragment>

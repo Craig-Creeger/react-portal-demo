@@ -6,12 +6,12 @@ import Swipeable from "./swipeable";
 import "./car-list.css";
 
 const cars = [
-  { name: "Mazda MX-5 RF", filename: "mazda_mx-5_rf.jpg" },
   { name: "Austin-Healey 100 BN2", filename: "austin-healey_100_BN2.jpg" },
   { name: "AMC Gremlin", filename: "amc_gremlin.jpg" },
   { name: "Aston Martin DB4 GT Zagato", filename: "Aston-Martin-DB4-GT-Zagato.jpg" },
-  { name: "AMC Pacer", filename: "amc_pacer.jpg" },
+  { name: "Mazda MX-5 RF", filename: "mazda_mx-5_rf.jpg" },
   { name: "Ford GT40", filename: "ford_gt40.jpg" },
+  { name: "AMC Pacer", filename: "amc_pacer.jpg" },
   { name: "Pontiac Aztek", filename: "pontiac_aztek.jpg" },
   { name: "Jaguar E-type", filename: "jaguar_e-type.jpg" },
   { name: "Nissan Leaf", filename: "nissan_leaf.jpg" },
