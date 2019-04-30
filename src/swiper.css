@@ -6,16 +6,19 @@
 }
 .swiper.like {
 	opacity: 0;
+	z-index: 0;
 	transform: translateX(300px);
 }
 .swiper.dislike {
 	opacity: 0;
+	z-index: 0;
 	transform: translateX(-300px);
 }
 
 .swipeBtn {
 	position: absolute;
 	top: 0;
+	z-index: 1;
 	background: none;
 	background-color: transparent;
 	width: 50%;
