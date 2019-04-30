@@ -3,9 +3,11 @@
 	padding: 1em 0;
 	margin-top: 0;
 	background-color: gainsboro;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: left;
 }
 
 .carList li {
 	margin: 1.5em;
-	display: inline-block;
 }
